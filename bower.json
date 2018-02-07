@@ -25,9 +25,6 @@
   "dependencies": {
     "polymer": "Polymer/polymer#1.9 - 2"
   },
-  "devDependencies": {
-    "iron-component-page": "PolymerElements/iron-component-page#^2.0.0"
-  },
   "variants": {
     "1.x": {
       "dependencies": {
@@ -38,6 +35,17 @@
       },
       "resolutions": {
         "webcomponentsjs": "^0.7"
+      }
+    },
+    "2.x": {
+      "dependencies": {
+        "polymer": "Polymer/polymer#^2"
+      },
+      "devDependencies": {
+        "iron-component-page": "PolymerElements/iron-component-page#^2.0.0"
+      },
+      "resolutions": {
+        "webcomponentsjs": "^1.0"
       }
     }
   }
